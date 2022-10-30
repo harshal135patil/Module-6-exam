@@ -1,0 +1,90 @@
+body{
+    text-align: center;
+    background: rgb(184, 197, 189);
+}
+h1{
+    font-family:'Times New Roman', Times, serif
+}
+.container{
+    position: relative;
+    top: 5rem;
+    width: 45%;
+    height: 80vh;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    border: 2px solid rgb(19, 167, 190);
+    border-radius: 30px;
+}
+
+.form{
+    text-align: left;
+    padding-top: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.name-container{
+    width: 90%;
+    margin: auto;
+}
+.email-container{
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+}
+.col-md-4{
+    height: 7rem;
+}
+
+.radio{
+
+    padding-top: 2rem;    
+}
+.additional{
+    text-align: center;
+    display: flex;
+    gap: 1.5rem;
+    width: fit-content;
+    margin: auto;
+}
+
+
+/* ------------------------------------------ */
+.country-form{
+    padding-top: 2rem;
+
+}
+.selection{
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+}
+h6{
+    padding-top: 3rem;
+    
+}
+
+.submit{
+    position: relative;
+    top:2rem;
+    background-color: black;
+    color: white;
+    border-radius: 0.5rem;
+    padding:0.5rem;
+    font-weight: 600;
+}
+
+
+/* --------------------------------------------------- */
+.country-valid{
+    color: green;
+    font-size: 0.8rem;
+    display: none;
+    padding-top: 0.25rem;
+}
+.country-invalid{
+    color: red;
+    font-size: 0.8rem;
+    display: none;
+    padding-top: 0.25rem;
+}
